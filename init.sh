@@ -1,11 +1,6 @@
 #!/bin/sh
 
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
-  exit
-fi
-
-old_username = "template-user"
+old_username="template"
 
 read -p "new hostname: " hostname
 echo $hostname > /etc/hostname
