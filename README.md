@@ -1,5 +1,5 @@
 # keys
 
 ```sh
-curl https://keys.sysduck.com -o ~/.ssh/authroized_keys
+curl https://keys.sysduck.com -o ~/.ssh/authorized_keys
 ```
